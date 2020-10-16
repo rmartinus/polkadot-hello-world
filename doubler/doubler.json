@@ -1,87 +1,96 @@
 {
-  "contract": {
-    "authors": [
-      "unknown"
+  "registry": {
+    "strings": [
+      "storage",
+      "value",
+      "u256",
+      "Storage",
+      "new",
+      "initvalue",
+      "double",
+      "get",
+      "doubler"
     ],
-    "name": "doubler",
-    "version": "0.0.1"
-  },
-  "metadataVersion": "0.1.0",
-  "source": {
-    "compiler": "solang 0.1.4",
-    "hash": "0x13d29c74e1a36cca82bc0acbe7404a40ba54041286af3dc2dee8ec41c93b4111",
-    "language": "Solidity 0.1.4"
-  },
-  "spec": {
-    "constructors": [
+    "types": [
       {
-        "args": [
-          {
-            "name": "initvalue",
-            "type": {
-              "display_name": [
-                "u256"
-              ],
-              "type": 1
-            }
-          }
-        ],
-        "docs": [
-          ""
-        ],
-        "name": "new",
-        "selector": "0x6d9b6a6b"
-      }
-    ],
-    "events": [],
-    "messages": [
-      {
-        "args": [],
-        "docs": [
-          ""
-        ],
-        "mutates": true,
-        "name": "double",
-        "return_type": null,
-        "selector": "0x8fdb7189"
+        "id": {
+          "custom.name": 1,
+          "custom.namespace": [],
+          "custom.params": []
+        },
+        "def": {
+          "struct.fields": []
+        }
       },
       {
-        "args": [],
-        "docs": [
-          ""
-        ],
-        "mutates": false,
-        "name": "get",
-        "return_type": {
-          "display_name": [
-            "u256"
-          ],
-          "type": 1
-        },
-        "selector": "0x6d4ce63c"
+        "id": "u256",
+        "def": "builtin"
       }
     ]
   },
   "storage": {
-    "struct": {
-      "fields": [
-        {
-          "layout": {
-            "cell": {
-              "key": "0x0000000000000000000000000000000000000000000000000000000000000000",
-              "ty": 1
+    "struct.type": 1,
+    "struct.fields": [
+      {
+        "name": 4,
+        "layout": {
+          "struct.type": 1,
+          "struct.fields": [
+            {
+              "name": 2,
+              "layout": {
+                "range.offset": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "range.len": "1",
+                "range.elem_type": 2
+              }
             }
-          },
-          "name": "value"
+          ]
         }
-      ]
-    }
-  },
-  "types": [
-    {
-      "def": {
-        "primitive": "u256"
       }
-    }
-  ]
+    ]
+  },
+  "contract": {
+    "name": 9,
+    "constructors": [
+      {
+        "name": 5,
+        "selector": "[\"0x6D\",\"0x9B\",\"0x6A\",\"0x6B\"]",
+        "docs": [],
+        "args": [
+          {
+            "name": 6,
+            "type": {
+              "ty": 2,
+              "display_name": [
+                3
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "messages": [
+      {
+        "name": 7,
+        "selector": "[\"0x8F\",\"0xDB\",\"0x71\",\"0x89\"]",
+        "docs": [],
+        "mutates": true,
+        "args": [],
+        "return_type": null
+      },
+      {
+        "name": 8,
+        "selector": "[\"0x6D\",\"0x4C\",\"0xE6\",\"0x3C\"]",
+        "docs": [],
+        "mutates": false,
+        "args": [],
+        "return_type": {
+          "ty": 2,
+          "display_name": [
+            3
+          ]
+        }
+      }
+    ]
+  }
 }
