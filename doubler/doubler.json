@@ -1,0 +1,87 @@
+{
+  "contract": {
+    "authors": [
+      "unknown"
+    ],
+    "name": "doubler",
+    "version": "0.0.1"
+  },
+  "metadataVersion": "0.1.0",
+  "source": {
+    "compiler": "solang 0.1.4",
+    "hash": "0x13d29c74e1a36cca82bc0acbe7404a40ba54041286af3dc2dee8ec41c93b4111",
+    "language": "Solidity 0.1.4"
+  },
+  "spec": {
+    "constructors": [
+      {
+        "args": [
+          {
+            "name": "initvalue",
+            "type": {
+              "display_name": [
+                "u256"
+              ],
+              "type": 1
+            }
+          }
+        ],
+        "docs": [
+          ""
+        ],
+        "name": "new",
+        "selector": "0x6d9b6a6b"
+      }
+    ],
+    "events": [],
+    "messages": [
+      {
+        "args": [],
+        "docs": [
+          ""
+        ],
+        "mutates": true,
+        "name": "double",
+        "return_type": null,
+        "selector": "0x8fdb7189"
+      },
+      {
+        "args": [],
+        "docs": [
+          ""
+        ],
+        "mutates": false,
+        "name": "get",
+        "return_type": {
+          "display_name": [
+            "u256"
+          ],
+          "type": 1
+        },
+        "selector": "0x6d4ce63c"
+      }
+    ]
+  },
+  "storage": {
+    "struct": {
+      "fields": [
+        {
+          "layout": {
+            "cell": {
+              "key": "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "ty": 1
+            }
+          },
+          "name": "value"
+        }
+      ]
+    }
+  },
+  "types": [
+    {
+      "def": {
+        "primitive": "u256"
+      }
+    }
+  ]
+}
