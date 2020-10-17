@@ -6,7 +6,7 @@ contract doubler {
     }
 
     function double() public {
-        value = value * value;
+        value = value * 2;
     }
 
     function get() public view returns (uint) {

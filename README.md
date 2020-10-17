@@ -7,4 +7,4 @@ $ docker run --rm -it -v $(pwd):/sources hyperledgerlabs/solang:v0.1.3 -v -o /so
 ```
 
 ### Details
-Contract: 0xb7c7ffbede3f08c475d1b3575b30bb7dad7447de0ebec76b0372893e813424c0
+Contract: 0xe45dc4b0ad94e83272cc09e4346b2893c60d82f8d061a7591132759683057134
